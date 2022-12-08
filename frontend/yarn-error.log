@@ -1,0 +1,56 @@
+Arguments: 
+  /home/roy/.nvm/versions/node/v16.17.0/bin/node /usr/bin/yarn dev
+
+PATH: 
+  /home/roy/.nvm/versions/node/v16.17.0/bin:/home/roy/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/home/roy/.local/bin:/snap/bin:/home/roy/.nvm/versions/node/v16.17.0/bin:/home/roy/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/home/roy/.local/bin:/snap/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/roy/Desktop/projects/svelte-chat-app/package.json: Unexpected token { in JSON at position 385
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "svelte-app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "build": "rollup -c",
+      "dev": "rollup -c -w",
+      "start": "sirv public --no-clear"
+    },
+    "devDependencies": {
+      "@rollup/plugin-commonjs": "^17.0.0",
+      "@rollup/plugin-node-resolve": "^11.0.0",
+      "rollup": "^2.3.4",
+      "rollup-plugin-css-only": "^3.1.0",
+      "rollup-plugin-livereload": "^2.0.0",
+      "rollup-plugin-svelte": "^7.0.0",
+      "rollup-plugin-terser": "^7.0.0",
+      "svelte": "^3.0.0"
+    },
+    "dependencies": {
+      "axios": "^1.2.1",
+      "sirv-cli": "^2.0.0",
+      "stream-chat": "^8.1.3",
+      "yarn": "^1.22.19"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
